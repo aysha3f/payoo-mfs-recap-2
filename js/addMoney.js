@@ -12,7 +12,9 @@ if(pinNumber === '1234'){
 const balance = document.getElementById('account-balance').innerText;
 const balanceNumber = parseFloat(balance); 
 
-const newBalance = balanceNumber + addMoneyNumber;}
+const newBalance = balanceNumber + addMoneyNumber;
+
+document.getElementById('account-balance').innerText = newBalance;}
 else{
     alert('Failed to add money. Please check your PIN number.')
 }
